@@ -2,7 +2,7 @@
 // you can also load the code snippets in using your browser's console
 let $ = document.querySelector();
 
-let title = $('title');
-title.addEventListener('click', (e) => {
-  title.style.fontWeight = 'bold';
+let main = $('main');
+main.addEventListener('click', (e) => {
+  main.style.fontWeight = 'bold';
 });
