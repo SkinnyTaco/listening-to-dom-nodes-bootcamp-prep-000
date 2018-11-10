@@ -4,5 +4,5 @@ let $ = document.querySelector();
 
 let title = $('title');
 title.addEventListener('click', (e) => {
-  
+  title.style.fontWeight = 'bold';
 });
