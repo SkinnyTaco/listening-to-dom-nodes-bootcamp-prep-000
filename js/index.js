@@ -5,4 +5,5 @@ let $ = document.querySelector();
 let main = $('main');
 main.addEventListener('click', (e) => {
   main.style.fontWeight = 'bold';
+  main.style.fontSize =
 });
